@@ -12,7 +12,7 @@ export class RecipeService {
       'This is simply a test', 
       'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Fish_and_chips.jpg/800px-Fish_and_chips.jpg', 
       [
-        new Ingredient('Meat', 1),
+        new Ingredient('Cod', 1),
         new Ingredient('French Fries', 20),
       ]),
     new Recipe('Cheeseburger', 
@@ -20,7 +20,7 @@ export class RecipeService {
       'https://upload.wikimedia.org/wikipedia/commons/1/11/Cheeseburger.png',
       [
         new Ingredient('Meat', 1),
-        new Ingredient('French Fries', 20),
+        new Ingredient('Onion Rings', 20),
       ])
   ];
 
