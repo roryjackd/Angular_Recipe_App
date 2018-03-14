@@ -16,7 +16,7 @@ export class HeaderComponent implements OnInit {
   authState: Observable<fromAuth.State>;
 
   constructor(private dataStorageService: DataStorageService,
-              private authService: AuthService
+              private authService: AuthService,
               private store: Store<fromApp.AppState>) {
   }
 
@@ -40,8 +40,5 @@ export class HeaderComponent implements OnInit {
   onLogout() {
     this.authService.logout();
   }
-
-  isAuthenticated() {
-    return this.authService.isAuthenticated();
-  }
+  
 }
