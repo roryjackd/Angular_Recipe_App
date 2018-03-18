@@ -1,5 +1,5 @@
 import { Recipe } from '../recipe.model';
-imprt { Ingredient } from '../../shared/ingredient.model';
+import { Ingredient } from '../../shared/ingredient.model';
 import * as RecipeActions from './recipe.actions';
 
 export interface FeatureState {
